@@ -38,10 +38,6 @@ import com.google.gson.GsonBuilder;
 	    String sql =  "SELECT COMPANY_NAME, COMPANY_ADDRESS_LATITUDE, COMPANY_ADDRESS_LONGITUDE, COMPANY_ADDRESS, COMPANY_TIME, COMPANY_PHONE FROM TBL_PROMEMBER WHERE COMPANY_ADDRESS LIKE '%서%'";
 	    
 	    List<Map<String, Object>> data = jdbcTemplate.queryForList(sql);
-	    Gson gson = new GsonBuilder()
-				.setPrettyPrinting()
-				.setPrettyPrinting()
-				.create();
 		
 	    return data;
 	  }
@@ -52,11 +48,7 @@ import com.google.gson.GsonBuilder;
 	    String sql =  "SELECT COMPANY_NAME, COMPANY_ADDRESS_LATITUDE, COMPANY_ADDRESS_LONGITUDE, COMPANY_ADDRESS, COMPANY_TIME, COMPANY_PHONE FROM TBL_PROMEMBER WHERE COMPANY_ADDRESS LIKE '강동%'";
 	     
 	    List<Map<String, Object>> data = jdbcTemplate.queryForList(sql);
-	    Gson gson = new GsonBuilder()
-				.setPrettyPrinting()
-				.setPrettyPrinting()
-				.create();
-
+	    
 	    return data;
 	  }
 	  
@@ -66,11 +58,7 @@ import com.google.gson.GsonBuilder;
 	    String sql =  "SELECT COMPANY_NAME, COMPANY_ADDRESS_LATITUDE, COMPANY_ADDRESS_LONGITUDE, COMPANY_ADDRESS, COMPANY_TIME, COMPANY_PHONE FROM TBL_PROMEMBER WHERE COMPANY_ADDRESS LIKE '%남%'";
 	    
 	    List<Map<String, Object>> data = jdbcTemplate.queryForList(sql);
-	    Gson gson = new GsonBuilder()
-				.setPrettyPrinting()
-				.setPrettyPrinting()
-				.create();
-		
+	   
 	    return data;
 	  }
 	  
@@ -80,10 +68,7 @@ import com.google.gson.GsonBuilder;
 	    String sql =  "SELECT COMPANY_NAME, COMPANY_ADDRESS_LATITUDE, COMPANY_ADDRESS_LONGITUDE, COMPANY_ADDRESS, COMPANY_TIME, COMPANY_PHONE FROM TBL_PROMEMBER WHERE COMPANY_ADDRESS LIKE '%북%'";
 	    
 	    List<Map<String, Object>> data = jdbcTemplate.queryForList(sql);
-	    Gson gson = new GsonBuilder()
-				.setPrettyPrinting()
-				.setPrettyPrinting()
-				.create();
+	   
 		
 	    return data;
 	  }
