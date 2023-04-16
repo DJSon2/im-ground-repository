@@ -20,8 +20,7 @@
 * 회원 가입(기여 20%) - 신규 전문가 등록 시 병원의 주소 자동 좌표 변환 기능
 
 
-# 전문가 회원 가입 파일
-[pro-regist-file](https://github.com/DJSon2/im-ground-repository/blob/main/regist/regist-promember.html)
-
-# 담당 페이지 파일
-[주요 담당 파일](https://github.com/DJSon2/im-ground-repository/blob/main/api/mapApi.html)
+# 기여한 파일
+* [주요 담당 페이지 ](https://github.com/DJSon2/im-ground-repository/blob/main/api/mapApi.html)
+* [요청 처리 및 DB 쿼리 수행 컨트롤러](https://github.com/DJSon2/im-ground-repository/blob/main/MapApiController.java)
+* [전문가 회원 가입 파일](https://github.com/DJSon2/im-ground-repository/blob/main/regist/regist-promember.html)
