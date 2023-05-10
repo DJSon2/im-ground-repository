@@ -1,7 +1,18 @@
 ## 프로젝트 명 : IM Ground(Information Animal Medical Ground)
-## 개발 인원 : 5명
+![image](https://github.com/DJSon2/im-ground-repository/assets/124123956/d315819d-297d-464d-91b5-1aa8c1d6d0c2)
+
+
 ## 프로젝트 개요
-반려 동물 전문가와 직접 소통 가능하며, 전문가는 지도로 표시된 병원을 통해 홍보 효과를 얻는 웹 사이트 개발
+* 반려 동물 전문가와 직접 소통 가능하며, 전문가는 지도로 표시된 병원을 통해 홍보 효과를 얻는 웹 사이트 개발
+* Spring Boot 및 Thymeleaf를 활용한 팀 프로젝트 
+* 개발 인원 : 5명
+
+## 개발 환경
+* 운영 체재 : Window 10 64bit
+* DB : Oracle 18c
+* API : Java Servlet 3.1
+* 형상관리 : GitLab
+* 언어 : Java Script, Java Open JDK 1.8.0, Java 11
 
 ## 개발 기간 : 2022.11.21 ~ 2022.12.20
 * 제안 요청, 착수 기간 : 11.21 ~ 11.23
